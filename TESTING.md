@@ -27,7 +27,7 @@ Chat History:
 - Cevap: The document does not specify who translated the book.
 
 Doküman dilinden bağımsız, sorunun diline göre cevapla promptuna rağmen her zaman prompta sadık kalmadı. 
-Retrieval eğer hiç alakalı sonuç getirmeseydi cevap "Yüklenen belgede bu soruya ilişkin bir bilgi bulunamadı.\n No relevant information found in the uploaded document" olmalıydı ama burada getirilen dökümanlar alakasız diye değerlendirip cevap verilmedi.
+Retrieval eğer hiç alakalı sonuç getirmeseydi cevap "Yüklenen belgede bu soruya ilişkin bir bilgi bulunamadı. No relevant information found in the uploaded document" olmalıydı ama burada getirilen dökümanlar alakasız diye değerlendirip cevap verilmedi.
 
 ## Deneme 2 — Akademik Makale
 

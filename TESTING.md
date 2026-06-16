@@ -53,4 +53,4 @@ Chat History:
 - Daha iyi bir OCR modeli kullanılması, özellikle Türkçe karakterler ve bitişik kelimeler konusundaki hataları önemli ölçüde azaltacaktır.
 - Daha iyi bir embedding modeli, retrieval kalitesini artıracak ve alakalı içeriğin "alakasız" olarak yanlış değerlendirilmesi sorununu büyük ölçüde çözecektir.
 - Daha güçlü bir LLM, dil yönergelerine daha tutarlı biçimde uyarak sorunun diline göre yanıt verme konusunda daha başarılı olacaktır.
-- Sistem tamamen yerel ortamda çalıştığından embedding oluşturma ve cevap üretme süreleri doküman boyutuna göre değişmektedir, yapılan denemelerde her iki adım da ortalama **~1 dakika** civarında tamamlandı.
+- Sistem tamamen yerel ortamda çalıştığından embedding oluşturma ve cevap üretme süreleri doküman boyutuna göre değişmektedir, yapılan denemelerde belge yükleme adımı ortalama 50 saniye, soru cevaplama adımı ortalama 25 saniye civarında tamamlandı.

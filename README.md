@@ -37,8 +37,8 @@ Arayüz **Gradio** ile sunulur; tarayıcı üzerinden çalışan bir sohbet ekra
 ### 1. Repoyu Klonlayın
 
 ```bash
-git clone https://github.com/HMeteCelik/pdf-RAG.git
-cd pdf-RAG
+git clone https://github.com/HMeteCelik/pdf-RAG-chatbot
+cd pdf-RAG-chatbot
 ```
 
 ### 2. Python Ortamı Oluşturun
@@ -75,7 +75,7 @@ Ollama'yı resmi sitesinden indirin:
 ### Modelleri İndirin
 
 ```bash
-ollama run qwen3:4b-instruct-2507-q4_K_M
+ollama pull qwen3:4b-instruct-2507-q4_K_M
 ollama pull bge-m3:567m
 ```
 

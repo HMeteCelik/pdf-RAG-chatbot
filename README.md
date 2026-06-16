@@ -89,9 +89,13 @@ python main.py
 
 ---
 
-## 🛠 Gereksinimler
+## Gereksinimler
 
 - Python 3.11
 - [Ollama](https://ollama.com)
 - `qwen3:4b-instruct-2507-q4_K_M` modeli
 - `bge-m3` embedding modeli
+
+## Proje tanıtım videosu
+
+https://drive.google.com/file/d/1JmVC-XY4-wqY4gFJ4n8NhEv3fwaWibo0/view

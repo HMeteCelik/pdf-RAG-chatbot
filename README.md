@@ -2,27 +2,27 @@
 
 ![graph](graph.png)
 
-**pdf-RAG**, PDF ve görsel dosyalarınızı yerel olarak sorgulayabileceğiniz, tamamen çevrimdışı çalışan bir **chatbot** uygulaması. 
+**pdf-RAG**, PDF ve görsel dosyalarınızı yerel olarak sorgulayabileceğiniz, tamamen çevrimdışı çalışan bir chatbot uygulaması. 
 
-**Self-Corrective RAG** mimarisi çalışır. Her yanıt, oluşturulmadan önce kaynaklar kontrol edilir ve gerektiğinde yeniden sorgulanır. Bu sayede halüsinasyon riski en aza indirilir.
+Self-Corrective RAG mimarisi çalışır. Her yanıt, oluşturulmadan önce kaynaklar kontrol edilir ve gerektiğinde yeniden sorgulanır. Bu sayede halüsinasyon riski en aza indirilir.
 
-Arayüz **Gradio** ile sunulur; tarayıcı üzerinden çalışan bir sohbet ekranı açılır. Sol panelde PDF veya görsel yüklenirken sağ panelde belgeye yönelik sorular sorulabilir. Konuşma geçmişi de bağlam olarak modele iletilir, böylece art arda soru sorulabilir.
+Gradio ile  tarayıcı üzerinden çalışan bir sohbet ekranı açılır. Sol panelde PDF veya görsel yüklenirken sağ panelde belgeye yönelik sorular sorulabilir. Konuşma geçmişi de bağlam olarak modele iletilir, böylece art arda soru sorulabilir.
 
 ## Özellikler
 
 - PDF ve görsel dosyalardan (`.pdf`, `.png`, `.jpg`, `.jpeg`) metin çıkarımı
-- Gradio tabanlı chatbot arayüzü — tarayıcıda çalışır, kurulum gerektirmez
+- Gradio tabanlı chatbot arayüzü
 - Self-Corrective RAG ile halüsinasyona karşı otomatik doğrulama
-- Vektör tabanlı anlamsal arama ve yerel embedding
-- Tamamen yerel çalışır — hiçbir veri dışarı gitmez
+- Vektör tabanlı anlamsal arama ve local embedding
+- Local LLM
 - `llm.py` üzerinden farklı Ollama modelleri kolayca değiştirilebilir
 
 ## Sistem Mimarisi
 
-- `main.py` — Gradio arayüzünü başlatır; dosya yükleme ve sohbet akışını yönetir
-- `vector_db.py` — Belge dönüştürme, bölme ve vektör depolama işlemlerini üstlenir
-- `graph/` — Self-Corrective RAG zincirinin düğüm ve akış mantığını barındırır
-- `uploads/` — Yüklenen dosyaların geçici olarak tutulduğu klasördür
+- `main.py` — Gradio arayüzünü başlatır, dosya yükleme ve sohbet akışı
+- `vector_db.py` — Belge dönüştürme, bölme ve vektör depolama işlemleri
+- `graph/` — Self-Corrective RAG zincirinin düğüm ve akış mantığı
+- `uploads/` — Yüklenen dosyaların geçici olarak tutulduğu klasör
 
 ## LLM Seçimi ve Ayarlar
 

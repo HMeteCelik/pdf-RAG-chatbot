@@ -45,6 +45,8 @@ Chat History:
 - Cevap: Evet, bu yöntem, askeri alanlarda camoufajlı nesnelerin tespit edilmesi için kullanılabilecek bir çözüm sunar. Özellikle hava araçlarıyla yapılan askeri gözetim sistemlerinde, camoufajlı nesnelerin hızlı ve doğru tanımlanması açısından uygundur. Referans [23]’te, askeri camoufaj nesneleri tespit için bir modelin kullanımı yer alır. Bu nedenle, askeri uygulamalarda potansiyel bir uygulama alanı sunar.
 - Soru: Nasıl for loop yazarım? 
 - Cevap: Yüklenen belgede bu soruya ilişkin bir bilgi bulunamadı. No relevant information found in the uploaded document.
+- Soru: Explain the tables
+- Cevap: The tables compare different methods for camouflaged object segmentation across datasets like CAMO, NC4K, and COD10K. Each row represents a method (e.g., HitNet, SENet, ZoomNeXt), and columns show performance metrics such as segmentation accuracy (F), mask selection accuracy (↑ M ↓ S α), and evaluation scores (Eϕ, F). "F", "U", and "ZS" denote fully-supervised, unsupervised, and zero-shot methods respectively. The best results in each setting are highlighted in bold or colored (red, blue, green). "OOM" indicates out-of-memory errors, and "–" means data not available. The tables evaluate overall performance using a composite score combining multiple metrics.
 
 ## Analizler
  

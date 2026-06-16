@@ -37,8 +37,8 @@ Arayüz **Gradio** ile sunulur; tarayıcı üzerinden çalışan bir sohbet ekra
 ### 1. Repoyu Klonlayın
 
 ```bash
-git clone https://github.com/HMeteCelik/pdf-RAG.git
-cd pdf-RAG
+https://github.com/HMeteCelik/pdf-RAG-chatbot
+cd pdf-RAG-chatbot
 ```
 
 ### 2. Python Ortamı Oluşturun

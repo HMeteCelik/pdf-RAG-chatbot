@@ -115,7 +115,6 @@ def split_document(md_content: str):
 
 headers_to_split_on = [
     ("#", "Header 1"),
-    ("##", "Header 2"),
 ]
 
 text_splitter = RecursiveCharacterTextSplitter(

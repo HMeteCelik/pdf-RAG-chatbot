@@ -68,10 +68,10 @@ Chunking stratejilerini daha sistematik test ederdim.
 
 ## Referanslar
 
-https://docs.langchain.com/
-https://doi.org/10.48550/arXiv.2410.15944
-https://github.com/pixegami/rag-tutorial-v2
-https://huggingface.co/learn/cookbook/advanced_rag
-https://github.com/GiovanniPasq/agentic-rag-for-dummies
-https://www.udemy.com/course/langchain-langgraph/
-https://doi.org/10.48550/arXiv.2602.03693
+https://docs.langchain.com/ 
+https://doi.org/10.48550/arXiv.2410.15944 \
+https://github.com/pixegami/rag-tutorial-v2 \
+https://huggingface.co/learn/cookbook/advanced_rag \
+https://github.com/GiovanniPasq/agentic-rag-for-dummies \
+https://www.udemy.com/course/langchain-langgraph/ \
+https://doi.org/10.48550/arXiv.2602.03693 \

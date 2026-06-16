@@ -63,6 +63,7 @@ Sistemi, LangGraph kullanılarak bir workflow şeklinde tasarladım. Temel amac�
 Öncelikle OCR modelini Türkçe için fine-tune ederdim ve bilgileri daha iyi ayrıştırırdım.
 Kullanıcı arayüzünü Gradio ile yapmak yerine daha esnek bir şekilde yapardım. Bu arayüzden hem on-premise hem de API key ile kullanılabilecek esnek bir yapı kurardım.
 PDF'lerden ve görüntülerden çıkarılan verilerin kalitesini artırmak için çıktılarını daha detaylı inceler ve buna göre ek ön işleme adımlarını çoğaltırdım.
+PDF'lerdeki görselleri de yorumlatmak için bir VLM modeli eklerdim.
 Chunking stratejilerini daha sistematik test ederdim.
 
 ## Referanslar

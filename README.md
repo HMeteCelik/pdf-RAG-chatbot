@@ -6,7 +6,7 @@
 
 Self-Corrective RAG mimarisi çalışır. Her yanıt, oluşturulmadan önce kaynaklar kontrol edilir ve gerektiğinde yeniden sorgulanır. Bu sayede halüsinasyon riski en aza indirilir.
 
-Gradio ile  tarayıcı üzerinden çalışan bir sohbet ekranı açılır. Sol panelde PDF veya görsel yüklenirken sağ panelde belgeye yönelik sorular sorulabilir. Konuşma geçmişi de bağlam olarak modele iletilir, böylece art arda soru sorulabilir.
+Gradio ile  tarayıcı üzerinden çalışan bir sohbet ekranı açılır. Sol panelde PDF veya görsel yüklenirken sağ panelde belgeye yönelik sorular sorulabilir. Konuşma geçmişi de context olarak modele iletilir, böylece art arda soru sorulabilir.
 
 ## Özellikler
 
